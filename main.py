@@ -13,3 +13,8 @@ with col2:
     something about me
     many lines"""
     st.info(content)
+
+footer = """
+This is a label but it doesnt fit into the columns created above, This is a label but it doesnt fit into the columns created above
+"""
+st.subheader(footer)
