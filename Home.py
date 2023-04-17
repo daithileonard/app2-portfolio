@@ -35,6 +35,6 @@ with col4:
         st.write(f"[Source Code]({row['url']})")
 
 footer = """
-This is a label but it doesnt fit into the columns created above, This is a label but it doesnt fit into the columns created above
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras semper. A iaculis at erat pellentesque adipiscing. Tempor orci eu lobortis elementum nibh tellus. Adipiscing at in tellus integer. Dui id ornare arcu odio ut sem nulla pharetra diam. Nunc scelerisque viverra mauris in aliquam sem. Maecenas ultricies mi eget mauris pharetra et ultrices neque. Pellentesque pulvinar pellentesque habitant morbi. Sem fringilla ut morbi tincidunt augue. Quam id leo in vitae turpis massa sed elementum.
 """
 st.subheader(footer)
