@@ -7,13 +7,14 @@ st.set_page_config(layout="wide")
 col1, col2 = st.columns(2)
 
 with col1:
-    st.image("images/photo.png")
+    st.image("images/linked1.jpg")
 
 with col2:
     st.title("Daithí O' Lionáird")
     content = """
-    something about me
-    many lines"""
+    Daithí is an experienced engineer with a strong track record in the IT industry. With a passion for new technologies, ensuring software quality and driving efficient testing processes. Daithí has successfully led and contributed to numerous projects throughout his career. His expertise spans various domains, including E2E environments, 3rd party vendor onboarding and integration, API automation, data migration, and system upgrades. Daithí's commitment to delivering high-quality results, combined with his technical skills and leadership abilities, make him a valuable asset to any organisation.
+    https://www.linkedin.com/in/daithiolionaird/
+    """
     st.info(content)
 
 df = pandas.read_csv("data.csv", sep=";")
@@ -35,6 +36,6 @@ with col4:
         st.write(f"[Source Code]({row['url']})")
 
 footer = """
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum enim facilisis gravida neque convallis a cras semper. A iaculis at erat pellentesque adipiscing. Tempor orci eu lobortis elementum nibh tellus. Adipiscing at in tellus integer. Dui id ornare arcu odio ut sem nulla pharetra diam. Nunc scelerisque viverra mauris in aliquam sem. Maecenas ultricies mi eget mauris pharetra et ultrices neque. Pellentesque pulvinar pellentesque habitant morbi. Sem fringilla ut morbi tincidunt augue. Quam id leo in vitae turpis massa sed elementum.
+Lorem ipsum dolor s id o
 """
 st.subheader(footer)
