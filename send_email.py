@@ -2,10 +2,6 @@ import smtplib, ssl
 import os
 
 
-
-EMAIL = {EMAIL}
-PASSWORD = {PASSWORD}
-
 def send_email(message_local):
     host = "smtp.gmail.com"
     port = 465
