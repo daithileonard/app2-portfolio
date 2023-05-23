@@ -10,7 +10,7 @@ Tour Scraper;A program that checks a music band's website and sends an email whe
 Helper Chatbot;A chatbot that knows about a specific topic and answers questions regarding that topic.;;9.png
 Open Domain Chatbot;A chatbot built that can discuss anything with a human and is built using the Facebook API.;;10.png
 Webcam Motion Detector;A program that monitors the computer webcam and sends an email when a new object enters the view.;https://github.com/daithileonard/app9-webcam-object-detection/;11.png
-Typing Analyzer;A program that monitors the computer keyboard and returns the most typed words of the session.;;12.png
+Sentiment Analyzer;A program that analyzes text from a book and returns the sentiment based on that text.;https://github.com/daithileonard/app8-book-sentiment-analysis/;12.png
 Internet Speed Analysis;A program that records the internet speed every few seconds and plots the values on the browser.;;13.png
 Monitoring Data;A program that monitors a particular website and periodically records the data to a remote server.;;14.png
 Visualizing Data;A program that visualizes the data collected in the previous monitoring program. ;;15.png

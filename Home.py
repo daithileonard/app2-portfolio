@@ -36,6 +36,6 @@ with col4:
         st.write(f"[Source Code]({row['url']})")
 
 footer = """
-Lorem ipsum dolor s id o
+
 """
 st.subheader(footer)
